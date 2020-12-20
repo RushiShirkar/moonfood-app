@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="in.moonfood.android" version="1.0.17" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="CDVOrientation">
+        <param name="android-package" value="cordova.plugins.screenorientation.CDVOrientation" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="OneSignalPush">
+        <param name="android-package" value="com.plugin.gcm.OneSignalPush" />
+    </feature>
+    <feature name="Checkout">
+        <param name="android-package" value="com.razorpay.cordova.Main" />
+    </feature>
+    <feature name="ImageDownloader">
+        <param name="android-package" value="com.santinowu.cordova.imagedownloader.ImageDownloader" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>MOONFOOD</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="moonfoodgc1@gmail.com" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <icon density="mdpi" height="57" src="icon.png" width="57" />
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="SplashScreen" value="none" />
+    <preference name="android-targetSdkVersion" value="28" />
+</widget>

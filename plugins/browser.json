@@ -1,0 +1,27 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "com.razorpay.cordova": {
+      "PACKAGE_NAME": "in.moonfood.android"
+    },
+    "com.santinowu.cordova.imagedownloader": {
+      "PACKAGE_NAME": "in.moonfood.android"
+    }
+  },
+  "dependent_plugins": {}
+}

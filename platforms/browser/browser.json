@@ -1,0 +1,85 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": [
+            {
+              "xml": "<feature name=\"Checkout\"><param name=\"browser-package\" value=\"Checkout\" /></feature>",
+              "count": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "onesignal-cordova-plugin": {
+      "PACKAGE_NAME": "io.cordova.hellocordova"
+    },
+    "com.razorpay.cordova": {
+      "PACKAGE_NAME": "in.moonfood.android"
+    },
+    "com.santinowu.cordova.imagedownloader": {
+      "PACKAGE_NAME": "in.moonfood.android"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "file": "plugins/cordova-plugin-screen-orientation/www/screenorientation.js",
+      "id": "cordova-plugin-screen-orientation.screenorientation",
+      "pluginId": "cordova-plugin-screen-orientation",
+      "clobbers": [
+        "cordova.plugins.screenorientation"
+      ]
+    },
+    {
+      "file": "plugins/onesignal-cordova-plugin/www/OneSignal.js",
+      "id": "onesignal-cordova-plugin.OneSignal",
+      "pluginId": "onesignal-cordova-plugin",
+      "clobbers": [
+        "OneSignal"
+      ]
+    },
+    {
+      "file": "plugins/com.razorpay.cordova/www/RazorpayCheckout.js",
+      "id": "com.razorpay.cordova.RazorpayCheckout",
+      "pluginId": "com.razorpay.cordova",
+      "clobbers": [
+        "RazorpayCheckout"
+      ]
+    },
+    {
+      "file": "plugins/com.razorpay.cordova/src/browser/CheckoutProxy.js",
+      "id": "com.razorpay.cordova.CheckoutProxy",
+      "pluginId": "com.razorpay.cordova",
+      "runs": true
+    },
+    {
+      "file": "plugins/com.santinowu.cordova.imagedownloader/www/imagedownloader.js",
+      "id": "com.santinowu.cordova.imagedownloader.imagedownloader",
+      "pluginId": "com.santinowu.cordova.imagedownloader",
+      "clobbers": [
+        "imagedownloader"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-screen-orientation": "3.0.2",
+    "onesignal-cordova-plugin": "2.8.2",
+    "com.razorpay.cordova": "0.16.1",
+    "com.santinowu.cordova.imagedownloader": "1.0.3"
+  }
+}

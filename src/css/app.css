@@ -1,0 +1,23 @@
+/* Your app styles here */
+.bgnav.navbar {
+    background-color:#0d1635;
+  }
+  .bgpage.page{
+    color:#BDBDBD;
+    background-color:#F2F2F2;
+  }
+  .cardt.card{
+    height:30vh;
+  }
+  .cardm.card{
+    height:30vh;
+  }
+  .mpzero{
+    margin:0px;
+    padding: 0px;
+  }
+  .bgsubnav.subnavbar {
+    background-color:#0d1635;
+  }
+
+
